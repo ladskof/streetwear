@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Street Cult story — how a passion for street culture became a premium streetwear brand.">
+  <title>About — Street Cult</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+  <button class="scroll-top" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- ══ NAV ═══════════════════════════════════════════════ -->
+  <input type="checkbox" id="nav-toggle" class="nav__toggle-cb sr-only">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Street Cult home">STREET<span>CULT</span></a>
+        <div class="nav__links nav__links--desktop" role="list">
+          <a href="index.html"   class="nav__link" role="listitem">Home</a>
+          <a href="shop.html"    class="nav__link" role="listitem">Shop</a>
+          <a href="product.html" class="nav__link" role="listitem">New Arrivals</a>
+          <a href="about.html"   class="nav__link nav__link--active" role="listitem">About</a>
+          <a href="contact.html" class="nav__link" role="listitem">Contact</a>
+        </div>
+        <div class="nav__actions">
+          <button class="nav__icon-btn" aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button>
+          <button class="nav__icon-btn" aria-label="Account"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></button>
+          <a href="cart.html" class="nav__icon-btn" aria-label="Shopping cart">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span class="nav__cart-count" aria-live="polite" style="display:none">0</span>
+          </a>
+          <label class="nav__toggle-label" for="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></label>
+        </div>
+        <div class="nav__links" role="list">
+          <a href="index.html"   class="nav__link" role="listitem">Home</a>
+          <a href="shop.html"    class="nav__link" role="listitem">Shop</a>
+          <a href="product.html" class="nav__link" role="listitem">New Arrivals</a>
+          <a href="about.html"   class="nav__link" role="listitem">About</a>
+          <a href="contact.html" class="nav__link" role="listitem">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-main">
+
+    <!-- ══ ABOUT HERO ════════════════════════════════════════ -->
+    <section class="about-hero" aria-labelledby="about-hero-title">
+      <div class="about-hero__bg">
+        <img loading="eager"
+          src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=1800&q=80"
+          alt="Street Cult — urban streetwear editorial, models in warehouse setting">
+      </div>
+      <div class="about-hero__overlay"></div>
+      <div class="about-hero__content">
+        <div class="container">
+          <p class="section-label" style="margin-bottom:var(--space-2)">Our Story</p>
+          <h1 class="about-hero__title" id="about-hero-title">BORN ON<br>THE BLOCK</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ STORY SECTION ═════════════════════════════════════ -->
+    <section class="section" aria-labelledby="story-title">
+      <div class="container">
+        <div style="display:flex;gap:var(--space-10);flex-wrap:wrap;align-items:center">
+
+          <!-- Image -->
+          <div data-fade style="flex:1 1 clamp(260px,40vw,480px);border-radius:var(--radius-xl);overflow:hidden;aspect-ratio:4/5;background:var(--bg-card)">
+            <img loading="lazy"
+              src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=900&q=80"
+              alt="Street Cult founder in a studio surrounded by garments"
+              style="width:100%;height:100%;object-fit:cover">
+          </div>
+
+          <!-- Text -->
+          <div style="flex:1 1 clamp(260px,40vw,560px)" data-fade>
+            <p class="section-label" style="margin-bottom:var(--space-3)">Since 2014</p>
+            <h2 class="section-title" id="story-title" style="margin-bottom:var(--space-5)">WE DIDN'T WAIT FOR PERMISSION</h2>
+            <p style="margin-bottom:var(--space-4);font-size:var(--text-md);line-height:1.8">Street Cult started in a one-bedroom apartment in East London. Two friends, a sewing machine and a vision: to make clothes that meant something — pieces that carried the energy of the streets they came from.</p>
+            <p style="margin-bottom:var(--space-4);line-height:1.8">We weren't interested in fast fashion or trend-chasing. We wanted weight. Both literally — our fabrics average 380–420gsm — and culturally. Every collection is shaped by the music, art, and movement happening outside our studio windows.</p>
+            <p style="line-height:1.8">Twelve seasons later, we're still making everything with that same deliberate intent. The city is our studio. The streets are our runway.</p>
+
+            <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;margin-top:var(--space-6)">
+              <a href="shop.html" class="btn btn--primary">Shop Now</a>
+              <a href="contact.html" class="btn btn--outline">Get in Touch</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ STATS ══════════════════════════════════════════════ -->
+    <section class="section section--dark" aria-labelledby="stats-title">
+      <div class="container">
+        <h2 class="sr-only" id="stats-title">Street Cult by the numbers</h2>
+        <div class="stats-row">
+          <div class="stat-block" data-fade>
+            <div class="stat-block__num">12</div>
+            <div class="stat-block__label">Seasons</div>
+          </div>
+          <div class="stat-block" data-fade>
+            <div class="stat-block__num">50K+</div>
+            <div class="stat-block__label">Cult Members</div>
+          </div>
+          <div class="stat-block" data-fade>
+            <div class="stat-block__num">28</div>
+            <div class="stat-block__label">Countries Shipped</div>
+          </div>
+          <div class="stat-block" data-fade>
+            <div class="stat-block__num">200+</div>
+            <div class="stat-block__label">Styles Available</div>
+          </div>
+          <div class="stat-block" data-fade>
+            <div class="stat-block__num">100%</div>
+            <div class="stat-block__label">Ethically Made</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ VALUES ══════════════════════════════════════════════ -->
+    <section class="section" aria-labelledby="values-title">
+      <div class="container">
+        <div class="section__header">
+          <div class="section__header-left">
+            <p class="section-label">What We Stand For</p>
+            <h2 class="section-title" id="values-title">OUR VALUES</h2>
+          </div>
+        </div>
+        <div class="values-grid">
+
+          <div class="value-card" data-fade>
+            <div class="value-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="value-card__title">Quality First</h3>
+            <p>We use premium weight fabrics, tight stitching and rigorous quality control. If we wouldn't wear it ourselves, it doesn't leave the studio.</p>
+          </div>
+
+          <div class="value-card" data-fade>
+            <div class="value-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3 class="value-card__title">Cultural Authenticity</h3>
+            <p>We draw from real street culture — not a boardroom's idea of it. Our design team lives and breathes the community we create for.</p>
+          </div>
+
+          <div class="value-card" data-fade>
+            <div class="value-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12M12 12L6 6M12 12L18 6"/><path d="M3 20h18"/></svg>
+            </div>
+            <h3 class="value-card__title">Ethical Production</h3>
+            <p>All production partners are certified and audited annually. We pay fair wages and maintain full supply chain transparency.</p>
+          </div>
+
+          <div class="value-card" data-fade>
+            <div class="value-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            </div>
+            <h3 class="value-card__title">Limited by Design</h3>
+            <p>We drop in limited runs. No restocks, no mass production. When something's gone, it's gone — keeping every piece rare and meaningful.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ TEAM ════════════════════════════════════════════════ -->
+    <section class="section section--dark" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section__header">
+          <div class="section__header-left">
+            <p class="section-label">The Crew</p>
+            <h2 class="section-title" id="team-title">MEET THE TEAM</h2>
+          </div>
+        </div>
+        <div class="team-grid">
+
+          <div class="team-card" data-fade>
+            <div class="team-card__img">
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80"
+                alt="Jordan Hayes — Co-founder and Creative Director">
+            </div>
+            <h3 class="team-card__name">Jordan Hayes</h3>
+            <p class="team-card__role">Co-founder · Creative Director</p>
+          </div>
+
+          <div class="team-card" data-fade>
+            <div class="team-card__img">
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80"
+                alt="Mia Torres — Co-founder and Head of Design">
+            </div>
+            <h3 class="team-card__name">Mia Torres</h3>
+            <p class="team-card__role">Co-founder · Head of Design</p>
+          </div>
+
+          <div class="team-card" data-fade>
+            <div class="team-card__img">
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80"
+                alt="Dev Patel — Head of Production">
+            </div>
+            <h3 class="team-card__name">Dev Patel</h3>
+            <p class="team-card__role">Head of Production</p>
+          </div>
+
+          <div class="team-card" data-fade>
+            <div class="team-card__img">
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80"
+                alt="Zara Kim — Brand &amp; Marketing Lead">
+            </div>
+            <h3 class="team-card__name">Zara Kim</h3>
+            <p class="team-card__role">Brand &amp; Marketing Lead</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ STUDIO IMAGES ═══════════════════════════════════════ -->
+    <section class="section" aria-labelledby="studio-title">
+      <div class="container">
+        <div class="section__header">
+          <div class="section__header-left">
+            <p class="section-label">Behind the Scenes</p>
+            <h2 class="section-title" id="studio-title">THE STUDIO</h2>
+          </div>
+        </div>
+        <div style="display:flex;gap:var(--col-gap);flex-wrap:wrap">
+          <div data-fade style="flex:2 1 clamp(240px,40vw,500px);border-radius:var(--radius-lg);overflow:hidden;aspect-ratio:16/9;background:var(--bg-card)">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=80" alt="Street Cult studio interior" style="width:100%;height:100%;object-fit:cover">
+          </div>
+          <div style="flex:1 1 clamp(200px,30vw,360px);display:flex;flex-direction:column;gap:var(--col-gap)">
+            <div data-fade style="flex:1;border-radius:var(--radius-lg);overflow:hidden;background:var(--bg-card);min-height:140px">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1503341960582-b45751874cf0?w=600&q=80" alt="Close-up of fabric selection" style="width:100%;height:100%;object-fit:cover">
+            </div>
+            <div data-fade style="flex:1;border-radius:var(--radius-lg);overflow:hidden;background:var(--bg-card);min-height:140px">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80" alt="Garment production close-up" style="width:100%;height:100%;object-fit:cover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ BRAND STATEMENT ════════════════════════════════════ -->
+    <div class="brand-statement">
+      <h2 class="brand-statement__title">THE STREETS<br>MADE US.</h2>
+      <p class="brand-statement__sub">Street Cult — Est. 2014, East London</p>
+    </div>
+
+    <!-- ══ NEWSLETTER ══════════════════════════════════════════ -->
+    <section class="section" aria-labelledby="newsletter-title">
+      <div class="container">
+        <div class="newsletter">
+          <p class="section-label" style="justify-content:center;margin-bottom:var(--space-2)">Stay Connected</p>
+          <h2 class="newsletter__title" id="newsletter-title">JOIN THE CULT</h2>
+          <p class="newsletter__desc">Early access to drops, exclusive content and the stories behind the collections.</p>
+          <form class="newsletter__form" novalidate>
+            <label for="newsletter-email" class="sr-only">Email address</label>
+            <input id="newsletter-email" type="email" class="newsletter__input" placeholder="your@email.com" required autocomplete="email">
+            <button type="submit" class="btn btn--primary">Subscribe</button>
+          </form>
+          <p style="font-size:var(--text-xs);color:var(--text-muted);margin-top:var(--space-3)">No spam. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">STREET<span>CULT</span></div>
+          <p class="footer__brand-desc">Premium streetwear born from the streets. Every piece tells a story of culture, grit and style.</p>
+          <div class="footer__social" aria-label="Social media links">
+            <a href="#" class="footer__social-link" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="X (Twitter)"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.16 8.16 0 004.77 1.52V6.76a4.85 4.85 0 01-1-.07z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__col"><h3 class="footer__col-title">Shop</h3><ul class="footer__col-links"><li><a href="shop.html" class="footer__col-link">New Arrivals</a></li><li><a href="shop.html" class="footer__col-link">Hoodies</a></li><li><a href="shop.html" class="footer__col-link">Tees</a></li><li><a href="shop.html" class="footer__col-link">Sneakers</a></li></ul></div>
+        <div class="footer__col"><h3 class="footer__col-title">Info</h3><ul class="footer__col-links"><li><a href="about.html" class="footer__col-link">Our Story</a></li><li><a href="contact.html" class="footer__col-link">Contact Us</a></li><li><a href="#" class="footer__col-link">Sizing Guide</a></li></ul></div>
+        <div class="footer__col"><h3 class="footer__col-title">Help</h3><ul class="footer__col-links"><li><a href="#" class="footer__col-link">Shipping &amp; Returns</a></li><li><a href="#" class="footer__col-link">Track Order</a></li><li><a href="#" class="footer__col-link">FAQ</a></li></ul></div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Street Cult. All rights reserved.</p>
+        <div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

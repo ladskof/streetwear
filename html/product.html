@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cult Oversized Hoodie — Premium washed-black streetwear hoodie by Street Cult. Drop-shoulder fit, heavyweight fleece.">
+  <title>Cult Oversized Hoodie — Street Cult</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+  <button class="scroll-top" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- ══ NAV ═══════════════════════════════════════════════ -->
+  <input type="checkbox" id="nav-toggle" class="nav__toggle-cb sr-only">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Street Cult home">STREET<span>CULT</span></a>
+        <div class="nav__links nav__links--desktop" role="list">
+          <a href="index.html"   class="nav__link" role="listitem">Home</a>
+          <a href="shop.html"    class="nav__link" role="listitem">Shop</a>
+          <a href="product.html" class="nav__link nav__link--active" role="listitem">New Arrivals</a>
+          <a href="about.html"   class="nav__link" role="listitem">About</a>
+          <a href="contact.html" class="nav__link" role="listitem">Contact</a>
+        </div>
+        <div class="nav__actions">
+          <button class="nav__icon-btn" aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button>
+          <button class="nav__icon-btn" aria-label="Account"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></button>
+          <a href="cart.html" class="nav__icon-btn" aria-label="Shopping cart">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span class="nav__cart-count" aria-live="polite" style="display:none">0</span>
+          </a>
+          <label class="nav__toggle-label" for="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></label>
+        </div>
+        <div class="nav__links" role="list">
+          <a href="index.html"   class="nav__link" role="listitem">Home</a>
+          <a href="shop.html"    class="nav__link" role="listitem">Shop</a>
+          <a href="product.html" class="nav__link" role="listitem">New Arrivals</a>
+          <a href="about.html"   class="nav__link" role="listitem">About</a>
+          <a href="contact.html" class="nav__link" role="listitem">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    <div class="container">
+
+      <!-- Breadcrumb -->
+      <nav style="display:flex;align-items:center;gap:var(--space-2);padding-block:var(--space-5);font-family:var(--font-sub);font-size:var(--text-xs);letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)" aria-label="Breadcrumb">
+        <a href="index.html" style="color:var(--text-muted);transition:color var(--transition)" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Home</a>
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        <a href="shop.html" style="color:var(--text-muted);transition:color var(--transition)" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Shop</a>
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        <span style="color:var(--text-primary)" aria-current="page">Cult Oversized Hoodie</span>
+      </nav>
+
+      <!-- ══ PRODUCT DETAIL ══════════════════════════════════ -->
+      <section class="product-detail" aria-labelledby="product-name">
+        <div class="product-detail__inner">
+
+          <!-- Gallery -->
+          <div class="product-gallery">
+            <div class="product-gallery__main">
+              <img id="gallery-main-img"
+                src="../style/Cult%20Oversized%20Hoodie.jpg"
+                alt="Cult Oversized Hoodie — front view, washed black"
+                loading="eager">
+            </div>
+            <div class="product-gallery__thumbs" role="list" aria-label="Product images">
+              <div class="product-gallery__thumb" role="listitem">
+                <img src="../style/Cult%20Oversized%20Hoodie.jpg" alt="Front view" loading="lazy">
+              </div>
+              <div class="product-gallery__thumb" role="listitem">
+                <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=200&q=80" alt="Back view" loading="lazy">
+              </div>
+              <div class="product-gallery__thumb" role="listitem">
+                <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=200&q=80" alt="Detail shot" loading="lazy">
+              </div>
+              <div class="product-gallery__thumb" role="listitem">
+                <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=200&q=80" alt="Styled on model" loading="lazy">
+              </div>
+            </div>
+          </div>
+
+          <!-- Info panel -->
+          <div class="product-info">
+            <p class="product-info__brand" id="product-brand">Street Cult</p>
+            <h1 class="product-info__name" id="product-name">Cult Oversized Hoodie</h1>
+
+            <div class="product-info__price-wrap">
+              <span class="product-info__price" id="product-price" data-cents="18900">$189.00</span>
+              <span class="product-info__badge">New</span>
+            </div>
+
+            <!-- Rating -->
+            <div class="product-info__rating">
+              <div class="product-info__stars" aria-label="4.8 out of 5 stars">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="opacity:.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <span class="product-info__review-count">4.8 (124 reviews)</span>
+            </div>
+
+            <!-- Color -->
+            <div class="product-info__section">
+              <div class="product-info__label">
+                Colour
+                <span style="font-weight:400;color:var(--text-secondary);font-size:var(--text-xs)" id="selected-color-name">Washed Black</span>
+              </div>
+              <div class="color-swatches" role="group" aria-label="Select colour">
+                <button class="color-swatch is-selected" style="background:#1a1a1a" data-color="Washed Black" aria-label="Washed Black" title="Washed Black"></button>
+                <button class="color-swatch" style="background:#4a3728" data-color="Earth Brown" aria-label="Earth Brown" title="Earth Brown"></button>
+                <button class="color-swatch" style="background:#5a5a5a" data-color="Ash Gray" aria-label="Ash Gray" title="Ash Gray"></button>
+                <button class="color-swatch" style="background:#f0ede8" data-color="Off White" aria-label="Off White" title="Off White"></button>
+              </div>
+            </div>
+
+            <!-- Size -->
+            <div class="product-info__section">
+              <div class="product-info__label">
+                Size
+                <a href="#" style="font-weight:400;color:var(--accent);font-size:var(--text-xs);text-decoration:underline;text-underline-offset:3px">Size Guide</a>
+              </div>
+              <div class="size-selector" role="group" aria-label="Select size">
+                <button class="size-selector__btn is-disabled" aria-label="XS — sold out" title="Sold out">XS</button>
+                <button class="size-selector__btn" aria-label="S">S</button>
+                <button class="size-selector__btn" aria-label="M">M</button>
+                <button class="size-selector__btn" aria-label="L">L</button>
+                <button class="size-selector__btn" aria-label="XL">XL</button>
+                <button class="size-selector__btn is-disabled" aria-label="XXL — sold out" title="Sold out">XXL</button>
+              </div>
+              <p style="font-size:var(--text-xs);color:var(--text-muted);margin-top:var(--space-2)">XS and XXL are sold out. Join the waitlist.</p>
+            </div>
+
+            <!-- Quantity -->
+            <div class="product-info__section">
+              <div class="product-info__label">Quantity</div>
+              <div class="qty-control" aria-label="Quantity selector">
+                <button class="qty-control__btn" data-qty="dec" aria-label="Decrease quantity">−</button>
+                <span class="qty-control__value" aria-live="polite">1</span>
+                <button class="qty-control__btn" data-qty="inc" aria-label="Increase quantity">+</button>
+              </div>
+            </div>
+
+            <!-- Add to cart row -->
+            <div class="product-info__add-row">
+              <button class="btn btn--primary btn--lg" id="add-to-cart-btn" aria-label="Add Cult Oversized Hoodie to cart">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                Add to Cart
+              </button>
+              <button class="btn btn--outline btn--icon btn--lg" aria-label="Add to wishlist" aria-pressed="false" onclick="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+
+            <!-- Trust badges -->
+            <div style="display:flex;flex-wrap:wrap;gap:var(--space-4);padding-block:var(--space-5);border-block:1px solid var(--border)">
+              <div style="display:flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs);color:var(--text-secondary)">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                Free shipping over $100
+              </div>
+              <div style="display:flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs);color:var(--text-secondary)">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                30-day free returns
+              </div>
+              <div style="display:flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs);color:var(--text-secondary)">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                Secure checkout
+              </div>
+            </div>
+
+            <!-- Description Tabs -->
+            <div style="margin-top:var(--space-5)">
+              <div class="product-tabs" role="tablist" aria-label="Product information tabs">
+                <button class="product-tab" data-tab="details" role="tab" aria-selected="false" aria-controls="tab-details">Details</button>
+                <button class="product-tab" data-tab="sizing"  role="tab" aria-selected="false" aria-controls="tab-sizing">Sizing</button>
+                <button class="product-tab" data-tab="care"    role="tab" aria-selected="false" aria-controls="tab-care">Care</button>
+                <button class="product-tab" data-tab="reviews" role="tab" aria-selected="false" aria-controls="tab-reviews">Reviews (124)</button>
+              </div>
+
+              <div id="tab-details" class="product-tab-panel" role="tabpanel">
+                <p style="margin-bottom:var(--space-3)">The Cult Oversized Hoodie is built from 400gsm heavyweight cotton-fleece — thick enough to double as outerwear, comfortable enough for everyday wear. Drop-shoulder construction creates the signature oversized silhouette.</p>
+                <ul style="display:flex;flex-direction:column;gap:var(--space-2)">
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>
+                    400gsm cotton-fleece blend (80% cotton / 20% polyester)
+                  </li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>
+                    Drop-shoulder, oversized fit
+                  </li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>
+                    Woven Street Cult label at hem
+                  </li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>
+                    Double-stitched kangaroo pocket
+                  </li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>
+                    Garment-washed for broken-in feel
+                  </li>
+                </ul>
+              </div>
+
+              <div id="tab-sizing" class="product-tab-panel" role="tabpanel">
+                <p style="margin-bottom:var(--space-4)">Model is 6'1" (185cm) and wears size M. Fits 1–2 sizes larger than standard.</p>
+                <div style="overflow-x:auto">
+                  <table style="width:100%;border-collapse:collapse;font-size:var(--text-sm)">
+                    <thead>
+                      <tr style="border-bottom:1px solid var(--border)">
+                        <th style="padding:var(--space-2) var(--space-3);text-align:left;font-family:var(--font-sub);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary);font-weight:700">Size</th>
+                        <th style="padding:var(--space-2) var(--space-3);text-align:left;font-family:var(--font-sub);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary);font-weight:700">Chest (in)</th>
+                        <th style="padding:var(--space-2) var(--space-3);text-align:left;font-family:var(--font-sub);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary);font-weight:700">Length (in)</th>
+                        <th style="padding:var(--space-2) var(--space-3);text-align:left;font-family:var(--font-sub);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary);font-weight:700">Sleeve (in)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="border-bottom:1px solid var(--border)"><td style="padding:var(--space-2) var(--space-3);color:var(--text-primary)">S</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">22</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">27</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">25</td></tr>
+                      <tr style="border-bottom:1px solid var(--border);background:var(--bg-3)"><td style="padding:var(--space-2) var(--space-3);color:var(--text-primary)">M</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">24</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">28</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">26</td></tr>
+                      <tr style="border-bottom:1px solid var(--border)"><td style="padding:var(--space-2) var(--space-3);color:var(--text-primary)">L</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">26</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">29</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">27</td></tr>
+                      <tr><td style="padding:var(--space-2) var(--space-3);color:var(--text-primary)">XL</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">28</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">30</td><td style="padding:var(--space-2) var(--space-3);color:var(--text-secondary)">28</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div id="tab-care" class="product-tab-panel" role="tabpanel">
+                <ul style="display:flex;flex-direction:column;gap:var(--space-3)">
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>Machine wash cold, gentle cycle</li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>Do not bleach or tumble dry</li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>Iron on low heat, inside out</li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>Lay flat to dry to maintain shape</li>
+                  <li style="display:flex;gap:var(--space-2);font-size:var(--text-sm);color:var(--text-secondary)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" style="flex-shrink:0;margin-top:3px"><path d="M20 6L9 17l-5-5"/></svg>Wash with similar colours</li>
+                </ul>
+              </div>
+
+              <div id="tab-reviews" class="product-tab-panel" role="tabpanel">
+                <!-- Review summary -->
+                <div style="display:flex;gap:var(--space-6);flex-wrap:wrap;margin-bottom:var(--space-6);padding-bottom:var(--space-5);border-bottom:1px solid var(--border)">
+                  <div style="text-align:center">
+                    <div style="font-family:var(--font-heading);font-size:var(--text-4xl);color:var(--text-primary);line-height:1">4.8</div>
+                    <div style="display:flex;gap:2px;color:#FFB800;justify-content:center;margin-block:4px">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="opacity:.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p style="font-size:var(--text-xs);color:var(--text-muted)">124 reviews</p>
+                  </div>
+                </div>
+
+                <!-- Review cards -->
+                <div style="display:flex;flex-direction:column;gap:var(--space-5)">
+
+                  <article style="border-bottom:1px solid var(--border);padding-bottom:var(--space-5)">
+                    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-2);flex-wrap:wrap;gap:var(--space-2)">
+                      <div>
+                        <span style="font-family:var(--font-sub);font-weight:700;font-size:var(--text-sm);color:var(--text-primary)">Marcus T.</span>
+                        <span style="font-size:var(--text-xs);color:var(--text-muted);margin-left:var(--space-2)">Verified Buyer</span>
+                      </div>
+                      <div style="display:flex;gap:2px;color:#FFB800">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                      </div>
+                    </div>
+                    <p style="font-size:var(--text-sm);color:var(--text-secondary)">Heavyweight, premium quality. Wore it straight out the bag and got compliments. The washed black colour is exactly as pictured. Will be buying the earth brown colourway next.</p>
+                  </article>
+
+                  <article style="border-bottom:1px solid var(--border);padding-bottom:var(--space-5)">
+                    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-2);flex-wrap:wrap;gap:var(--space-2)">
+                      <div>
+                        <span style="font-family:var(--font-sub);font-weight:700;font-size:var(--text-sm);color:var(--text-primary)">Aisha R.</span>
+                        <span style="font-size:var(--text-xs);color:var(--text-muted);margin-left:var(--space-2)">Verified Buyer</span>
+                      </div>
+                      <div style="display:flex;gap:2px;color:#FFB800">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="opacity:.3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                      </div>
+                    </div>
+                    <p style="font-size:var(--text-sm);color:var(--text-secondary)">Sizing is genuinely oversized as described — went with M and it's perfect for layering. Shipping was fast and packaging was clean. Losing one star only because I wanted more colour options.</p>
+                  </article>
+
+                </div>
+              </div>
+
+            </div>
+          </div><!-- /product-info -->
+
+        </div><!-- /product-detail__inner -->
+      </section>
+
+      <!-- ══ YOU MAY ALSO LIKE ════════════════════════════════ -->
+      <section class="related-section" aria-labelledby="related-title">
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap;margin-bottom:var(--space-6)">
+          <div>
+            <p class="section-label">Complete The Look</p>
+            <h2 class="section-title" id="related-title">You May Also Like</h2>
+          </div>
+          <a href="shop.html" class="btn btn--outline btn--sm">View All</a>
+        </div>
+
+        <div class="product-grid" role="list">
+
+          <article class="product-card" role="listitem" data-product="District Cargo Pants" data-price="22900">
+            <a href="product.html">
+              <div class="product-card__img-wrap">
+                <img class="product-card__img" loading="lazy" src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80" alt="District Cargo Pants">
+                <div class="product-card__quick-add"><button class="btn btn--primary btn--sm btn--full js-quick-add">Quick Add</button></div>
+              </div>
+            </a>
+            <div class="product-card__info">
+              <p class="product-card__brand">Street Cult</p>
+              <h3 class="product-card__name">District Cargo Pants</h3>
+              <div class="product-card__price"><span class="product-card__price-current">$229.00</span></div>
+            </div>
+          </article>
+
+          <article class="product-card" role="listitem" data-product="6-Panel Logo Cap" data-price="5500">
+            <a href="product.html">
+              <div class="product-card__img-wrap">
+                <img class="product-card__img" loading="lazy" src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&q=80" alt="6-Panel Logo Cap">
+                <div class="product-card__quick-add"><button class="btn btn--primary btn--sm btn--full js-quick-add">Quick Add</button></div>
+              </div>
+            </a>
+            <div class="product-card__info">
+              <p class="product-card__brand">Street Cult</p>
+              <h3 class="product-card__name">6-Panel Logo Cap</h3>
+              <div class="product-card__price"><span class="product-card__price-current">$55.00</span></div>
+            </div>
+          </article>
+
+          <article class="product-card" role="listitem" data-product="Low-Pro Runner Sneakers" data-price="16500">
+            <a href="product.html">
+              <div class="product-card__img-wrap">
+                <img class="product-card__img" loading="lazy" src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?w=600&q=80" alt="Low-Pro Runner Sneakers">
+                <div class="product-card__quick-add"><button class="btn btn--primary btn--sm btn--full js-quick-add">Quick Add</button></div>
+              </div>
+            </a>
+            <div class="product-card__info">
+              <p class="product-card__brand">Street Cult</p>
+              <h3 class="product-card__name">Low-Pro Runner Sneakers</h3>
+              <div class="product-card__price"><span class="product-card__price-current">$165.00</span></div>
+            </div>
+          </article>
+
+          <article class="product-card" role="listitem" data-product="Urban Backpack" data-price="12900">
+            <a href="product.html">
+              <div class="product-card__img-wrap">
+                <img class="product-card__img" loading="lazy" src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80" alt="Urban Backpack">
+                <div class="product-card__quick-add"><button class="btn btn--primary btn--sm btn--full js-quick-add">Quick Add</button></div>
+              </div>
+            </a>
+            <div class="product-card__info">
+              <p class="product-card__brand">Street Cult</p>
+              <h3 class="product-card__name">Urban Backpack 26L</h3>
+              <div class="product-card__price"><span class="product-card__price-current">$129.00</span></div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </div><!-- /container -->
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">STREET<span>CULT</span></div>
+          <p class="footer__brand-desc">Premium streetwear born from the streets. Every piece tells a story of culture, grit and style.</p>
+          <div class="footer__social" aria-label="Social media links">
+            <a href="#" class="footer__social-link" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="X (Twitter)"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.16 8.16 0 004.77 1.52V6.76a4.85 4.85 0 01-1-.07z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__col"><h3 class="footer__col-title">Shop</h3><ul class="footer__col-links"><li><a href="shop.html" class="footer__col-link">New Arrivals</a></li><li><a href="shop.html" class="footer__col-link">Hoodies</a></li><li><a href="shop.html" class="footer__col-link">Tees</a></li><li><a href="shop.html" class="footer__col-link">Pants &amp; Shorts</a></li><li><a href="shop.html" class="footer__col-link">Sneakers</a></li></ul></div>
+        <div class="footer__col"><h3 class="footer__col-title">Info</h3><ul class="footer__col-links"><li><a href="about.html" class="footer__col-link">Our Story</a></li><li><a href="contact.html" class="footer__col-link">Contact Us</a></li><li><a href="#" class="footer__col-link">Sizing Guide</a></li><li><a href="#" class="footer__col-link">Sustainability</a></li></ul></div>
+        <div class="footer__col"><h3 class="footer__col-title">Help</h3><ul class="footer__col-links"><li><a href="#" class="footer__col-link">Shipping &amp; Returns</a></li><li><a href="#" class="footer__col-link">Track Order</a></li><li><a href="#" class="footer__col-link">FAQ</a></li><li><a href="#" class="footer__col-link">Privacy Policy</a></li></ul></div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Street Cult. All rights reserved.</p>
+        <div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
