@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
@@ -194,7 +194,7 @@
             <div class="product-card__info"><p class="product-card__brand">Street Cult</p><h3 class="product-card__name">Urban Backpack 26L</h3><div class="product-card__price"><span class="product-card__price-current">$129.00</span></div></div>
           </article>
           <article class="product-card" role="listitem" data-product="Staple Jogger" data-price="11500">
-            <a href="product.html"><div class="product-card__img-wrap"><img class="product-card__img" loading="lazy" src="../style/Staple%20Jogger.jpg" alt="Staple Jogger"><div class="product-card__quick-add"><button class="btn btn--primary btn--sm btn--full js-quick-add">Quick Add</button></div></div></a>
+            <a href="product.html"><div class="product-card__img-wrap"><img class="product-card__img" loading="lazy" src="style/Staple%20Jogger.jpg" alt="Staple Jogger"><div class="product-card__quick-add"><button class="btn btn--primary btn--sm btn--full js-quick-add">Quick Add</button></div></div></a>
             <div class="product-card__info"><p class="product-card__brand">Street Cult</p><h3 class="product-card__name">Staple Jogger</h3><div class="product-card__price"><span class="product-card__price-current">$115.00</span></div></div>
           </article>
         </div>
@@ -228,14 +228,14 @@
     </div>
   </footer>
 
-  <script src="../script.js"></script>
+  <script src="script.js"></script>
   <script>
     // Seed demo cart items if cart is empty (so the page isn't blank on first visit)
     document.addEventListener('DOMContentLoaded', () => {
       if (!localStorage.getItem('streetcult_cart') ||
           JSON.parse(localStorage.getItem('streetcult_cart')).length === 0) {
         const demo = [
-          { id: 'cult-oversized-hoodie-M-Washed Black', name: 'Cult Oversized Hoodie', brand: 'Street Cult', price: 18900, img: '../style/Cult%20Oversized%20Hoodie.jpg', size: 'M', color: 'Washed Black', qty: 1 },
+          { id: 'cult-oversized-hoodie-M-Washed Black', name: 'Cult Oversized Hoodie', brand: 'Street Cult', price: 18900, img: 'style/Cult%20Oversized%20Hoodie.jpg', size: 'M', color: 'Washed Black', qty: 1 },
           { id: 'district-cargo-pants-L-Olive', name: 'District Cargo Pants', brand: 'Street Cult', price: 22900, img: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=200&q=80', size: 'L', color: 'Olive', qty: 2 }
         ];
         localStorage.setItem('streetcult_cart', JSON.stringify(demo));
